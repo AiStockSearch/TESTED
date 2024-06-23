@@ -1,0 +1,8 @@
+include:
+  - project: 'haqqex-tech/common/gitlab-templates'
+    ref: main
+    file: 'common-jobs.yml'
+  - local: '/.gitlab/security_scan.yml'
+
+stages:
+  - linter

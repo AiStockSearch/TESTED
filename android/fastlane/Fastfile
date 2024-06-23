@@ -1,0 +1,80 @@
+update_fastlane
+
+default_platform(:android)
+
+platform :android do
+  desc "Haqqex Mobile APK Developer Release"
+  lane :firebaseRelogin do
+    logout
+    login
+  end
+
+  desc "Haqqex Mobile APK Developer Release"
+  lane :firebaseGenerateToken do
+    firebase_app_distribution_login
+  end
+
+
+  desc "Haqqex Mobile APK Developer Release"
+  lane :betaDev do
+    ENV['GRANDLE_PATH']="./app/version/dev.gradle"
+    gradle(
+      task: "assembleDevRelease",
+      # task: "clean assembleDevRelease",
+    )
+    firebaseDev()
+  end
+
+
+  desc "Haqqex Mobile APK Production Release"
+  lane :betaProd do
+    ENV['GRANDLE_PATH']="./app/version/prod.gradle"
+    gradle(
+      # task: "clean assembleProdRelease",
+      task: "assembleProdRelease",
+    )
+    firebaseProd()
+  end
+
+  desc "Haqqex Mobile APK Production Release"
+  lane :betaBundleProd do
+    ENV['GRANDLE_PATH']="./app/version/prod.gradle"
+    gradle(
+      task: "clean bundleProdRelease",
+      # task: "bundleProdRelease",
+    )
+    firebaseProd()
+  end
+
+  # BUILDER FASTLANE AND PUBLISH
+
+  lane :firebaseDev do
+    firebase_app_distribution(
+      app:ENV['DEV_APP'],
+      firebase_cli_token:ENV['FIREBASE_CLI'],
+      groups:"haqqexMobile",
+      testers_file:ENV['TEST_FILE'],
+      release_notes_file:ENV['RELEASE_FILE'],
+      firebase_cli_path: "/usr/local/bin/firebase",
+  )
+  end
+
+  lane :firebaseProd do
+    firebase_app_distribution(
+      app:ENV['PROD_APP'],
+      firebase_cli_token:ENV['FIREBASE_CLI'],
+      groups:"haqqexMobile",
+      testers_file:ENV['TEST_FILE'],
+      release_notes_file:ENV['RELEASE_FILE'],
+      firebase_cli_path: "/usr/local/bin/firebase",
+  )
+  end
+
+  after_all do |lane|
+    file_name = lane_context[SharedValues::GRADLE_APK_OUTPUT_PATH].gsub(/\/.*\//,"")
+    flavor = lane_context[:LANE_NAME]
+    increment_version_code(
+      gradle_file_path: ENV['GRANDLE_PATH'],
+    )
+  end
+end

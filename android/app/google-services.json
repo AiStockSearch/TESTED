@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "718075810763",
+    "project_id": "haqqex-mobile",
+    "storage_bucket": "haqqex-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718075810763:android:d7ffb02b6678bfd2669c4e",
+        "android_client_info": {
+          "package_name": "com.haqqexmobile.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-lTyoE3ZG1ScqxZzoG_3OBY-nhaI-jhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:718075810763:android:187a9f0a3dcb1e43669c4e",
+        "android_client_info": {
+          "package_name": "com.haqqexmobile.prod"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-lTyoE3ZG1ScqxZzoG_3OBY-nhaI-jhI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

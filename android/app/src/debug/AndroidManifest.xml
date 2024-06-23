@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        tools:targetApi="28"
+        tools:ignore="GoogleAppIndexingWarning,MissingApplicationIcon"/>
+</manifest>

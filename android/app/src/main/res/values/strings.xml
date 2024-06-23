@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">haqqexmobile</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://192.168.0.100:3000/.well-known/assetlinks.json\" }]</string>
+</resources>

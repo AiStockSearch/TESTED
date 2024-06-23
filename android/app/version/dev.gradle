@@ -1,0 +1,8 @@
+android {
+    productFlavors {
+        dev {
+            versionCode 5
+            versionName "1.0"
+        }
+    }
+}

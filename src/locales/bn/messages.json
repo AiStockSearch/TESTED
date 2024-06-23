@@ -1,0 +1,643 @@
+{
+  "AXEkO4": {
+    "translation": "",
+    "message": "{title} is copied",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/deposit.details.tsx",
+        56
+      ],
+      [
+        "src/app/screens/modal/transfer.details.tsx",
+        56
+      ],
+      [
+        "src/app/screens/modal/withdrawal.details.tsx",
+        55
+      ]
+    ]
+  },
+  "cGgPdV": {
+    "translation": "",
+    "message": "{title} soon will be open",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/deposit.details.tsx",
+        49
+      ],
+      [
+        "src/app/screens/modal/transfer.details.tsx",
+        49
+      ],
+      [
+        "src/app/screens/modal/withdrawal.details.tsx",
+        48
+      ]
+    ]
+  },
+  "3ekHD2": {
+    "translation": "",
+    "message": "AccessToken",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        32
+      ]
+    ]
+  },
+  "t1TeXw": {
+    "translation": "",
+    "message": "All assets",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.asset.tsx",
+        158
+      ]
+    ]
+  },
+  "KlRxCt": {
+    "translation": "",
+    "message": "Are you sure you want to log out?",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/logout/index.tsx",
+        26
+      ]
+    ]
+  },
+  "f6e0Ry": {
+    "translation": "",
+    "message": "Article",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/education.details.tsx",
+        190
+      ]
+    ]
+  },
+  "fPmFPr": {
+    "translation": "",
+    "message": "Article not found",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/education.details.tsx",
+        352
+      ]
+    ]
+  },
+  "+Dv/u4": {
+    "translation": "",
+    "message": "Buy crypto",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/order.type.tsx",
+        29
+      ]
+    ]
+  },
+  "bIzt/Q": {
+    "translation": "",
+    "message": "Buy crypto for fiat",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/order.type.tsx",
+        52
+      ]
+    ]
+  },
+  "dEgA5A": {
+    "translation": "",
+    "message": "Cancel",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/logout/index.tsx",
+        39
+      ]
+    ]
+  },
+  "kj3M8S": {
+    "translation": "",
+    "message": "Deposit",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/order.type.tsx",
+        39
+      ]
+    ]
+  },
+  "VX0yfs": {
+    "translation": "",
+    "message": "Deposit details",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/deposit.details.tsx",
+        68
+      ]
+    ]
+  },
+  "7pgw4g": {
+    "translation": "",
+    "message": "getAuthSuccess",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        34
+      ]
+    ]
+  },
+  "hBBJfN": {
+    "translation": "",
+    "message": "getUserId",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        33
+      ]
+    ]
+  },
+  "Dkobtp": {
+    "translation": "",
+    "message": "Internet connection lost",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/navigation/global/NetInfoConnect/screen.tsx",
+        43
+      ]
+    ]
+  },
+  "Z3FXyt": {
+    "translation": "",
+    "message": "Loading...",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.asset.tsx",
+        188
+      ]
+    ]
+  },
+  "FgAxTj": {
+    "translation": "",
+    "message": "Log out",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/logout/index.tsx",
+        22
+      ],
+      [
+        "src/app/screens/modal/logout/index.tsx",
+        32
+      ]
+    ]
+  },
+  "FUHpOq": {
+    "translation": "",
+    "message": "netInfo",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        37
+      ]
+    ]
+  },
+  "a8PCkA": {
+    "translation": "",
+    "message": "No assets found",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.asset.tsx",
+        188
+      ],
+      [
+        "src/app/screens/modal/filter.network.tsx",
+        138
+      ]
+    ]
+  },
+  "NtQvjo": {
+    "translation": "",
+    "message": "Period",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.period.tsx",
+        45
+      ]
+    ]
+  },
+  "VvWNTl": {
+    "translation": "",
+    "message": "Please check your internet connection",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/navigation/global/NetInfoConnect/screen.tsx",
+        49
+      ]
+    ]
+  },
+  "vs1Ua7": {
+    "translation": "",
+    "message": "RefreshToken",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        35
+      ]
+    ]
+  },
+  "u6pOwf": {
+    "translation": "",
+    "message": "routes",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        38
+      ]
+    ]
+  },
+  "cupYtR": {
+    "translation": "",
+    "message": "Select asset",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.asset.tsx",
+        103
+      ]
+    ]
+  },
+  "+2KHwW": {
+    "translation": "",
+    "message": "Select enviropment:",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        231
+      ]
+    ]
+  },
+  "qoVwXu": {
+    "translation": "",
+    "message": "Select network",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.network.tsx",
+        105
+      ]
+    ]
+  },
+  "gVfF2c": {
+    "translation": "",
+    "message": "Sell crypto",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/order.type.tsx",
+        34
+      ]
+    ]
+  },
+  "lg7+vk": {
+    "translation": "",
+    "message": "Side",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.side.tsx",
+        45
+      ]
+    ]
+  },
+  "uAQUqI": {
+    "translation": "",
+    "message": "Status",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.status.tsx",
+        45
+      ]
+    ]
+  },
+  "JHxGP5": {
+    "translation": "",
+    "message": "Trade",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/order.type.tsx",
+        87
+      ]
+    ]
+  },
+  "+mixGA": {
+    "translation": "",
+    "message": "Transfer details",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/deposit.details.tsx",
+        70
+      ],
+      [
+        "src/app/screens/modal/transfer.details.tsx",
+        65
+      ]
+    ]
+  },
+  "KDw4GX": {
+    "translation": "",
+    "message": "Try again",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/navigation/global/NetInfoConnect/screen.tsx",
+        51
+      ]
+    ]
+  },
+  "+zy2Nq": {
+    "translation": "",
+    "message": "Type",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/filter.type.tsx",
+        45
+      ]
+    ]
+  },
+  "IagCbF": {
+    "translation": "",
+    "message": "URL",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/connected.tsx",
+        36
+      ]
+    ]
+  },
+  "1q8JAB": {
+    "translation": "",
+    "message": "Withdraw details",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/deposit.details.tsx",
+        69
+      ]
+    ]
+  },
+  "LM3Gr+": {
+    "translation": "",
+    "message": "Withdrawal",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/order.type.tsx",
+        45
+      ]
+    ]
+  },
+  "FFTLsj": {
+    "translation": "",
+    "message": "Withdrawal details",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modal/withdrawal.details.tsx",
+        64
+      ]
+    ]
+  },
+  "qoRs4m": {
+    "translation": "",
+    "message": "Данные для проверки:",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        199
+      ]
+    ]
+  },
+  "1dCEQ8": {
+    "translation": "",
+    "message": "Демо аккаунт Kaznina",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        140
+      ]
+    ]
+  },
+  "SoGaJs": {
+    "translation": "",
+    "message": "Демо аккаунт trckster07",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        158
+      ]
+    ]
+  },
+  "ZIaN8H": {
+    "translation": "",
+    "message": "для вас ваш рабочий стол инвестора.",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/connected.example.tsx",
+        39
+      ]
+    ]
+  },
+  "p+2NGb": {
+    "translation": "",
+    "message": "Закрыть",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/useHookContext.tsx",
+        38
+      ]
+    ]
+  },
+  "8WD+Y/": {
+    "translation": "",
+    "message": "Исходя из ваших ответов мы готовим,",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/connected.example.tsx",
+        31
+      ]
+    ]
+  },
+  "XvxqZo": {
+    "translation": "",
+    "message": "Назад",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/component/component.header.tsx",
+        31
+      ]
+    ]
+  },
+  "vU4dR6": {
+    "translation": "",
+    "message": "Неправильно указан формат:",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/component/error.input.tsx",
+        16
+      ]
+    ]
+  },
+  "4E+VEm": {
+    "translation": "",
+    "message": "Открыт storybook",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        66
+      ],
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        93
+      ]
+    ]
+  },
+  "mYHJlh": {
+    "translation": "",
+    "message": "Открыт бизнес flow",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        66
+      ],
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        122
+      ]
+    ]
+  },
+  "WMMxiS": {
+    "translation": "",
+    "message": "Открыть боковую панель",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        108
+      ]
+    ]
+  },
+  "75+EbH": {
+    "translation": "",
+    "message": "Поздравляем, вы успешно прошли и стали владельцем дневника трейдера.",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/connected.example.tsx",
+        54
+      ]
+    ]
+  },
+  "C5o+Jk": {
+    "translation": "",
+    "message": "Продолжить",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        169
+      ]
+    ]
+  },
+  "ndzAlg": {
+    "translation": "",
+    "message": "Сейчас откроется список уточняющих статей",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/useHookContext.tsx",
+        36
+      ]
+    ]
+  },
+  "vQpPme": {
+    "translation": "",
+    "message": "Теперь вы можете приступить к работе с дневником трейдера",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/connected.example.tsx",
+        58
+      ]
+    ]
+  },
+  "ADGZTt": {
+    "translation": "",
+    "message": "Удалить токены",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        189
+      ]
+    ]
+  },
+  "O19Nqb": {
+    "translation": "",
+    "message": "Удалить токены авторизации",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/modalStoryboard/screen.tsx",
+        179
+      ]
+    ]
+  },
+  "mzlF5z": {
+    "translation": "",
+    "message": "Узнать подробнее",
+    "comments": [],
+    "origin": [
+      [
+        "src/app/screens/profile/home/example/component/component.header.tsx",
+        50
+      ]
+    ]
+  }
+}

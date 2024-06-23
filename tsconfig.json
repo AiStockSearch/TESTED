@@ -1,0 +1,43 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "jsx": "react-native",
+    "lib": ["es2021"],
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "module": "ES6",
+    "target": "es5",
+    "downlevelIteration": true,
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "@src/*": ["*"],
+      "@api/*": ["api/*"],
+      "@app/*": ["app/*"],
+      "@constantshaqqex/*": ["constants/*"],
+      "@styleshaqqex/*": ["styles/*"],
+      "@assets/*": ["app/assets/*"],
+      "@helpers/*": ["helpers/*"],
+      "@screens/*": ["screens/*"],
+      "@navigation/*": ["navigation/*"],
+      "@components": ["app/components/index"],
+      "@store/*": ["app/store/*"],
+      "@hooks": ["app/hooks/*"],
+      "@icons/*": ["app/assets/icons/*"],
+      "@util/*": ["app/util/*"]
+    }
+  },
+  // "include": ["src/**/*.ts", "app.d.ts", "src/**/*.tsx"],
+  "exclude": ["node_modules"]
+}

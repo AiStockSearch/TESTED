@@ -1,0 +1,45 @@
+{
+  "env": {
+    "es2021": true,
+    "node": true,
+    "es6": true,
+    "react-native/react-native": true
+  },
+  "extends": [
+    "plugin:react/recommended",
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "plugins": ["react", "react-native", "jest", "@typescript-eslint",],
+  "rules": {
+    "no-unused-vars": 0,
+    "no-undef": 0,
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-non-null-assertion": 0,
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/no-empty-interface": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/no-var-requires": 0,
+    "react/jsx-curly-brace-presence": ["error", { "props": "never" }],
+    "react-native/no-unused-styles": "error",
+    "react-native/split-platform-components": "error",
+    "react-native/no-inline-styles": "error",
+    "react-native/no-raw-text": "error",
+    "react-native/no-single-element-style-arrays": "error"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "ignorePatterns": ["/node_modules/**", "/dist/**", "src/script/api/types.d.ts"]
+}
